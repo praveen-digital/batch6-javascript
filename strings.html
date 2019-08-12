@@ -1,0 +1,16 @@
+<html>
+	<script>
+		var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		var a = str.substr(3,5);
+		console.log(a);//DEFGH
+		
+		var newStr = str.replace("MNO","ABC");
+		console.log(str);
+		console.log(newStr);
+		console.log(str.charAt(3));//D
+		console.log(str.charCodeAt(3));//D
+		for(var i=0;i<=26;i++){
+			document.write(String.fromCharCode(65+i));
+		}
+	</script>
+</html>

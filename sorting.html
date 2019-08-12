@@ -1,0 +1,28 @@
+<html>
+	<script>
+		var temp;
+		var ar = [12,45,21,10,34,76,31];
+		for(var i=0;i<=ar.length-2;i++){
+			for(var j=i+1;j<=ar.length-1;j++){
+				if(ar[i]>ar[j]){
+					temp = ar[i];
+					ar[i]=ar[j];
+					ar[j]=temp;
+				}
+			}
+		}
+		console.log(ar);
+		/*
+			1. exchange sort techniques
+				a. bubble sort	
+				b. selection sort
+				c. insertion sort
+				
+			2. divide and conquer techniques
+				a. merge sort
+				b. quick sort
+				c. heap sort
+				d. radix
+		*/
+	</script>
+</html>
